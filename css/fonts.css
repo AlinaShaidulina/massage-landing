@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Pacifico";
+    font-display: swap;
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: "AmaticSC-Regular";
+    font-display: swap;
+    src: url("../fonts/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Caveat";
+    font-display: swap;
+    src: url("../fonts/Caveat.ttf");
+}
+
+@font-face {
+    font-family: "BadScript";
+    font-display: swap;
+    src: url("../fonts/BadScript.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    font-display: swap;
+    src: url("../fonts/OpenSans.ttf");
+}
