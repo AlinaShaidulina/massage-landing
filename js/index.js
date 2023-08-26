@@ -18,47 +18,15 @@ new Glide('.j-service-carousel', {
         }
     },
     gap: 10,
+    swipeThreshold: 20,
 }).mount()
-
-// new Glide('.j-people-carousel', {
-//     type: 'carousel',
-//     startAt: 0,
-//     perView: 2,
-//     breakpoints: {
-//         767: {
-//             perView: 1,
-//         },
-//         991: {
-//             perView: 2,
-//         }
-//     },
-//     gap: 10,
-//     animationDuration: 300,
-//     autoplay: 3000
-// }).mount()
 
 new Glide('.j-promotions-carousel', {
     type: 'carousel',
     startAt: 0,
     perView: 1,
-    gap: 10,
+    gap: 0,
     animationDuration: 1200,
-    autoplay: 6000
-}).mount()
-
-new Glide('.j-reviews-carousel', {
-    type: 'carousel',
-    startAt: 0,
-    perView: 5,
-    breakpoints: {
-        767: {
-            perView: 1,
-        },
-        991: {
-            perView: 2,
-        }
-    },
-    gap: 10,
-    animationDuration: 300,
-    autoplay: 3000
+    autoplay: 6000,
+    swipeThreshold: 20,
 }).mount()
